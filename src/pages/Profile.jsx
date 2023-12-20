@@ -5,6 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { logout, selectUser } from "../features/userSlice";
 import { auth } from "../firebase";
 import { useNavigate } from "react-router-dom";
+import Plans from "./Plans";
 
 function Profile() {
 
@@ -33,6 +34,7 @@ function Profile() {
             <h2>{user.email}</h2>
             <div className="profile__plans">
               <h3>Plans</h3>
+              <Plans />
               <button onClick={accountLogout} className="profile__signOut">Sign Out</button>
             </div>
           </div>
