@@ -48,3 +48,13 @@
     cursor: pointer;
     text-decoration: underline;
 }
+
+@media (max-width: 600px){
+    .signup form button {
+        padding: 12px 16px;
+    }
+
+    .signup{
+        padding: 50px;
+    }
+}

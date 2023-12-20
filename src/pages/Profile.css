@@ -62,3 +62,12 @@
 .profile__info img{
     height: 100px;
 }
+
+@media (max-width: 600px){
+    .profile__info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
