@@ -95,3 +95,9 @@
     font-weight: 600;
     cursor: pointer;
 }
+
+@media (max-width: 600px){
+    .loginScreen__body h1{
+        font-size: 1.3rem;
+    }
+}
