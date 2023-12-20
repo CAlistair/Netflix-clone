@@ -36,12 +36,22 @@
     opacity: 1;
 }
 
-@media (max-width: 1499px){
+@media (min-width: 1400px){
     .row__poster{
         max-height: 150px;
     }
 
     .row__posterLarge{
         max-height: 250px;
+    }
+}
+
+@media (max-width: 600px){
+    .row__poster{
+        max-height: 125px;
+    }
+
+    .row__posterLarge{
+        max-height: 225px;
     }
 }
